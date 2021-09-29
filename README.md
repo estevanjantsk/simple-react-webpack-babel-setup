@@ -2,6 +2,11 @@
 
 The minimal React, Webpack, Babel Setup.
 
+## Tested with
+
+- node: v16.9.1
+- npm: 7.24.0
+
 ## Features
 
 - React 17
