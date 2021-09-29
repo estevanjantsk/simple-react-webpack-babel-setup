@@ -7,7 +7,7 @@ export const App = () => {
     <div>
       This is the a!pp!!!
       <button onClick={() => {
-        setItems([...items, 'hehehe'])
+        setItems([...items, 'hehehe!'])
       }}>click</button>
       {items.map((i, key) => {
         return <div key={key}>itemmmm</div>

@@ -16,9 +16,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    static: {
-      directory: path.resolve(__dirname, './dist'),
-    },
+    static: path.resolve(__dirname, './dist'),
     hot: true,
   }
 };
