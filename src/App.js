@@ -1,17 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export const App = () => {
-  const [items, setItems] = useState([])
-
+export const App = ({title}) => {
   return (
     <div>
-      This is the a!pp!!!
-      <button onClick={() => {
-        setItems([...items, 'hehehe!'])
-      }}>click</button>
-      {items.map((i, key) => {
-        return <div key={key}>itemmmm</div>
-      })}
+      {title}
     </div>
   )
 }

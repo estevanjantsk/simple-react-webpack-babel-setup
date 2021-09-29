@@ -5,6 +5,6 @@ import { App } from "./App";
 const title = 'React with Webpack and Babel';
  
 ReactDOM.render(
-  <App />,
+  <App title={title} />,
   document.getElementById('app')
 );
