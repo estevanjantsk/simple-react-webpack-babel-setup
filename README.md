@@ -17,3 +17,4 @@ The minimal React, Webpack, Babel Setup.
 - npm install
 - npm start
 - visit `http://localhost:8080/`
+- change remote: git remote set-url <remote_name> <remote_url>
