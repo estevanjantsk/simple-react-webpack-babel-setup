@@ -1,8 +1,9 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/index.js'),
+  entry: path.resolve(__dirname, '..', './src/index.js'),
   module: {
     rules: [
       {
@@ -21,16 +22,16 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, '..', './dist'),
     filename: 'bundle.js',
     clean: true,
   },
   plugins: [new HtmlWebpackPlugin({
     title: 'Hello Webpack bundled JavaScript Project',
-    template: path.resolve(__dirname, './src/index.html'),
+    template: path.resolve(__dirname, '..', './src/index.html'),
   })],
   devServer: {
-    static: path.resolve(__dirname, './dist'),
+    static: path.resolve(__dirname, '..', './dist'),
     hot: true,
   },
 };
