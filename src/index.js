@@ -1,6 +1,10 @@
-console.log('Hello Webpack Project.');
-
-const button = document.querySelector('#btn');
-button.addEventListener('click', () => {
-  console.log('clicked!!');
-})
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { App } from "./App";
+ 
+const title = 'React with Webpack and Babel';
+ 
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);
