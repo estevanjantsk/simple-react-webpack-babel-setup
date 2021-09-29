@@ -7,16 +7,16 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader', 'eslint-loader']
-      }
-    ]
+        use: ['babel-loader', 'eslint-loader'],
+      },
+    ],
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   devServer: {
     static: path.resolve(__dirname, './dist'),
     hot: true,
-  }
+  },
 };
