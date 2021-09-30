@@ -1,6 +1,6 @@
 # simple-react-webpack-babel-setup
 
-The minimal React, Webpack, Babel Setup.
+The minimal React, Webpack and Babel Setup.
 
 ## Tested with
 
